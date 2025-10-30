@@ -7,8 +7,8 @@ export default function Projects() {
       description: 'Sistema de gestão escolar para automação comportamental e registro de ocorrências educacionais.',
       tech: ['N8N', 'Google Sheets', 'APIs', 'Gmail'],
       gradient: 'from-blue-600 to-cyan-500',
-      link: 'https://documento-eight.vercel.app/',
-      code: 'https://github.com/taysouzaa/Roe-Registro-Ocorrencia-Escolar/blob/main/index.html'
+      link: 'https://registro-roe.vercel.app/',
+      code: 'https://github.com/taysouzaa/Registro.roe/blob/main/index.html'
     },
     {
       title: 'Receitopia',
