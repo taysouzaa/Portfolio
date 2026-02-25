@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-cyan-400 rounded-full mb-6 backdrop-blur-sm">
           <Sparkles size={16} />
-          <span className="text-sm font-medium">Desenvolvedora Full Stack</span>
+          <span className="text-sm font-medium">Full Stack & Automação de Processos</span>
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
@@ -22,7 +22,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Crio <span className="text-gradient font-semibold">soluções web modernas</span>, automações e experiências digitais de alto impacto.
+         Desenvolvo sistemas web, integrações e automações que transformam processos em resultados.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -42,12 +42,11 @@ export default function Hero() {
           </a>
         </div>
 
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+        <div className="mt-16 grid grid-cols-3 md:grid-cols-3 gap-9 max-w-4xl mx-auto">
           {[
-            { value: '2+', label: 'Anos de Estudos' },
-            { value: '10+', label: 'Projetos Concluídos' },
-            { value: '10+', label: 'Tecnologias' },
-            { value: '100%', label: 'Dedicação' }
+            { value: 'Soluções', label: 'Full Stack & Automação' },
+            { value: 'Integrações', label: 'APIs & Webhooks' },
+            { value: 'Arquitetura', label: 'Estrutura Escalável' }
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-blue-600 dark:text-cyan-400 mb-2">

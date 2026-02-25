@@ -3,22 +3,57 @@ import { Briefcase, GraduationCap, Award } from 'lucide-react';
 export default function Experience() {
   const experiences = [
     {
-      icon: Briefcase,
-      period: '2025 - Presente',
-      title: 'Desenvolvedora Full Stack',
-      company: 'Projetos Pessoais e Colaborativos',
-      description: 'Desenvolvimento de aplicações web completas, com foco em usabilidade e eficiência.',
-      tech: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'SQL Server', 'Python', 'n8n']
-    },
-    {
-      icon: GraduationCap,
-      period: '2024 - 2025',
-      title: 'Técnico em Desenvolvimento de Sistemas',
-      company: 'Escola Técnica Estadual',
-      description: 'Curso técnico com foco em desenvolvimento web, banco de dados e engenharia de software.',
-      tech: ['Projeto final: Sistema de gestão escolar (R.O.E.) para automação comportamental']
-    }
-  ];
+    icon: Briefcase,
+    period: '2026 - Presente',
+    title: 'Programadora Júnior',
+    company: 'Método P4',
+    description:
+    'Responsável pela estruturação e desenvolvimento das soluções tecnológicas da empresa, atuando na criação de sistemas internos, automações e integrações estratégicas. Participação ativa na definição de arquitetura, organização de dados e otimização de processos para ganho de eficiência e escalabilidade.',
+    tech: [
+    'React',
+    'Node.js',
+    'APIs REST',
+    'n8n',
+    'SQL Server',
+    'Integração de Sistemas',
+    'Arquitetura de Software',
+    'Automação de Processos'
+  ]
+},
+  {
+    icon: Briefcase,
+    period: '2026 - Presente',
+    title: 'Full Stack Developer',
+    company: 'Atuação Independente | Projetos para Empresas',
+    description:
+      'Desenvolvimento de sistemas web, integrações e automações orientadas à eficiência operacional. Atuação completa desde o levantamento de requisitos até deploy e manutenção, com foco em arquitetura organizada, escalabilidade e performance.',
+    tech: [
+      'React',
+      'TypeScript',
+      'Node.js',
+      'Python',
+      'APIs REST',
+      'SQL Server',
+      'Docker',
+      'Google Cloud',
+      'n8n',
+      'Git'
+    ]
+  },
+  {
+    icon: GraduationCap,
+    period: '2024 - 2025',
+    title: 'Técnico em Desenvolvimento de Sistemas',
+    company: 'Gustavo Peccinini - Escola Técnica Estadual',
+    description:
+      'Formação técnica com foco em arquitetura de software, modelagem de banco de dados e desenvolvimento de aplicações completas. Projeto final voltado à automação institucional com integrações e fluxo automatizado de comunicação.',
+    tech: [
+      'R.O.E. – Sistema com integração Google APIs e automação via n8n',
+      'Modelagem de Banco de Dados',
+      'Engenharia de Software'
+    ]
+  }
+];
 
  const certifications = [
   { name: 'Jornada: Pipeline API com Agente de IA', institution: 'Jornada de Dados', date: 'Mai/2025' },

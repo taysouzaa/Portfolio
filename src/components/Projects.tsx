@@ -4,27 +4,35 @@ export default function Projects() {
   const projects = [
     {
       title: 'Sistema R.O.E.',
-      description: 'Sistema de gestão escolar para automação comportamental e registro de ocorrências educacionais.',
-      tech: ['N8N', 'Google Sheets', 'APIs', 'Gmail'],
+      description: 'Sistema automatizado para registro, categorização e encaminhamento de ocorrências escolares, com armazenamento em Google Sheets e notificações automáticas via Gmail API.',
+      tech: ['n8n', 'Google Sheets', 'Gmail API', 'OAuth2'],
       gradient: 'from-blue-600 to-cyan-500',
       link: 'https://registro-roe.vercel.app/',
       code: 'https://github.com/taysouzaa/Registro.roe/blob/main/index.html'
     },
     {
-      title: 'Receitopia',
-      description: 'Plataforma web simples para treinamento front-end. Site de receitas para teste de habilidades.',
-      tech: ['HTML', 'CSS', 'JavaScript'],
-      gradient: 'from-blue-700 to-cyan-600',
-      link: 'https://receitopia-receitas.vercel.app/',
-      code: 'https://github.com/taysouzaa/Receitopia/blob/main/index.html'
+      title: 'SPI-P4',
+      description: 'Sistema SaaS para padronização e otimização de imagens para marketplaces como Amazon, Mercado Livre e Shopee, com processamento em lote, fila assíncrona e histórico persistente.',
+      tech: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Canvas API'],
+      gradient: 'from-blue-600 to-indigo-500',
+      link: 'https://imagens-spi.vercel.app/',
+      code: 'https://github.com/taysouzaa/SPI-P4/blob/main/README.md'
     },
     {
-      title: 'MetaAssistente',
-      description: 'Ferramenta web de assistência estratégica baseada em IA para jogos competitivos.',
-      tech: ['HTML', 'JavaScript', 'CSS'],
-      gradient: 'from-cyan-600 to-blue-500',
-      link: '#', // Link do projeto não informado
-      code: 'https://github.com/taysouzaa/MetaAssistente/blob/main/rocketseat/src/index1.html'
+      title: 'P4Calculator',
+      description: 'Aplicação web de Business Intelligence para e-commerce, focada em precificação, margem de contribuição e cálculo de ROAS, com histórico persistente e integração via webhook (n8n).',
+      tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+      gradient: 'from-indigo-600 to-purple-500',
+      link: 'https://p4-calculator.vercel.app/',
+      code: 'https://github.com/taysouzaa/P4Calculator/blob/main/README.md'
+    },
+    { 
+      title: 'Rota do Capacete',
+      description: 'Plataforma web desenvolvida para apresentação e organização do projeto Rota do Capacete, com foco em experiência do usuário, navegação intuitiva e estrutura escalável.',
+      tech: ['HTML', 'CSS', 'JavaScript'],
+      gradient: 'from-blue-600 to-cyan-500',
+      link: 'https://rotadocapacete.com.br/',
+      code: 'https://github.com/taysouzaa/RotadoCapacete/blob/main/README.md'
     }
   ];
 

@@ -2,37 +2,72 @@ import { Code, Server, Database, Workflow, Layers, Zap } from 'lucide-react';
 
 export default function Skills() {
   const skillCategories = [
-    {
-      icon: Code,
-      title: 'Front-end',
-      skills: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Tailwind CSS', 'Responsive Design']
-    },
-    {
-      icon: Server,
-      title: 'Back-end',
-      skills: ['Node.js', 'APIs REST', 'Lógica de Negócios', 'Arquitetura de Software', 'Lógica de Programação']
-    },
-    {
-      icon: Database,
-      title: 'Banco de Dados',
-      skills: ['SQL Server', 'MySQL', 'NoSQL', 'Modelagem de Dados']
-    },
-    {
-      icon: Workflow,
-      title: 'Automação',
-      skills: ['Python', 'n8n', 'Scripts', 'APIs']
-    },
-    {
-      icon: Layers,
-      title: 'Metodologias',
-      skills: ['Metodologias Ágeis', 'Github', 'Git', 'Clean Code']
-    },
-    {
-      icon: Zap,
-      title: 'Outros',
-      skills: ['Gestão de Projetos', 'Trabalho em Equipe', 'Performance', 'Automação']
-    }
-  ];
+  {
+    icon: Code,
+    title: 'Front-end Engineering',
+    skills: [
+      'React',
+      'JavaScript (ES6+)',
+      'Tailwind CSS',
+      'HTML5 & CSS3',
+      'Responsive Design',
+      'Component Architecture'
+    ]
+  },
+  {
+    icon: Server,
+    title: 'Back-end & Arquitetura',
+    skills: [
+      'Node.js',
+      'APIs RESTful',
+      'Arquitetura de Software',
+      'Regras de Negócio',
+      'Estruturação de Projetos'
+    ]
+  },
+  {
+    icon: Database,
+    title: 'Banco de Dados',
+    skills: [
+      'SQL Server',
+      'MySQL',
+      'Modelagem de Dados',
+      'Estrutura Relacional'
+    ]
+  },
+  {
+    icon: Workflow,
+    title: 'Integrações & Automação',
+    skills: [
+      'n8n',
+      'Integração de APIs',
+      'Webhooks',
+      'Automação de Processos',
+      'Scripts com Python'
+    ]
+  },
+  {
+    icon: Layers,
+    title: 'Boas Práticas & Versionamento',
+    skills: [
+      'Git',
+      'GitHub',
+      'Clean Code',
+      'Organização de Código',
+      'Controle de Versão'
+    ]
+  },
+  {
+    icon: Zap,
+    title: 'Performance & Entrega',
+    skills: [
+      'Otimização de Performance',
+      'Deploy de Aplicações',
+      'Estrutura Escalável',
+      'Foco em Resultado'
+    ]
+  }
+];
 
   return (
     <section id="skills" className="py-20 px-6 bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-slate-950 dark:to-blue-950 transition-colors">

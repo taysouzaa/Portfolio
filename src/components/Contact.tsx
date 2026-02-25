@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, Instagram } from 'lucide-react';
+import { Mail, Linkedin, Github } from 'lucide-react';
 
 export default function Contact() {
   const socialLinks = [
@@ -6,26 +6,20 @@ export default function Contact() {
       icon: Github,
       label: 'GitHub',
       href: 'https://github.com/taysouzaa',
-      username: 'taysouzaa'
+      username: 'github.com/taysouzaa'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
       href: 'https://linkedin.com/in/taynara-correia-souza',
-      username: 'taynara-correia-souza'
-    },
-    {
-      icon: Instagram,
-      label: 'Instagram',
-      href: 'https://instagram.com/souz.tayyy',
-      username: '@souz.tayyy'
+      username: 'linkedin.com/in/taynara-correia-souza'
     },
     {
       icon: Mail,
       label: 'E-mail',
-      href: 'mailto:taynara.souza.dev@gmail.com',
+      href: 'https://mail.google.com/mail/?view=cm&fs=1&to=taynara.souza.dev@gmail.com',
       username: 'taynara.souza.dev@gmail.com'
-    }
+}
   ];
 
   return (
@@ -33,11 +27,11 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            Vamos Conversar?
+            Disponível para Projetos e Contratos
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-cyan-400 mx-auto rounded-full" />
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Quer transformar ideias em soluções digitais? Entre em contato e vamos criar algo incrível juntos!
+            Desenvolvimento de sistemas web, integrações e automações sob demanda para empresas e profissionais.
           </p>
         </div>
 
@@ -55,18 +49,33 @@ export default function Contact() {
                   <social.icon className="text-white" size={28} />
                 </div>
                 <div>
-                  <div className="font-semibold text-lg text-gray-900 dark:text-white">{social.label}</div>
-                  <div className="text-gray-600 dark:text-gray-400">{social.username}</div>
+                  <div className="font-semibold text-lg text-gray-900 dark:text-white">
+                    {social.label}
+                  </div>
+                  <div className="text-gray-600 dark:text-gray-400">
+                    {social.username}
+                  </div>
                 </div>
               </a>
             ))}
           </div>
 
-          <div className="mt-10 p-8 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-xl text-white text-center">
-            <h4 className="font-bold text-2xl mb-3">Disponível para Projetos</h4>
-            <p className="text-blue-50 text-lg">
-              Estou sempre aberta a novos desafios e oportunidades de colaboração. Vamos criar algo incrível juntos!
+          <div className="mt-12 p-10 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-2xl text-white text-center shadow-xl">
+            <h4 className="font-bold text-2xl mb-4">
+              Solicite um Orçamento
+            </h4>
+            <p className="text-blue-50 text-lg mb-6 max-w-xl mx-auto">
+              Entre em contato para discutir seu projeto. Atuo no desenvolvimento de soluções sob medida, com foco em eficiência, organização e escalabilidade.
             </p>
+
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=taynara.souza.dev@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-all shadow-md"
+            >
+              Enviar E-mail
+            </a>
           </div>
         </div>
       </div>

@@ -14,15 +14,15 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              Sou <span className="font-semibold text-blue-600 dark:text-cyan-400">técnica em Desenvolvimento de Sistemas</span>, formada junto ao ensino médio, e desde então venho me especializando em desenvolvimento Full Stack.
+              Sou <span className="font-semibold text-blue-600 dark:text-cyan-400">Desenvolvedora Full Stack</span> com formação técnica em Desenvolvimento de Sistemas, atuando na criação de aplicações web, integrações e automações voltadas à eficiência operacional.
             </p>
 
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              Atuei em projetos para escolas, desenvolvendo sistemas de gestão, automação de processos e aplicações web. Busco sempre unir <span className="font-semibold text-blue-600 dark:text-cyan-400">tecnologia, criatividade e eficiência</span>.
+              Desenvolvo soluções completas, desde a modelagem da arquitetura até a implementação e deploy, sempre com foco em organização estrutural, escalabilidade e performance.
             </p>
 
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              Minha paixão é transformar ideias complexas em soluções digitais intuitivas e de alto impacto, sempre com foco em qualidade, performance e experiência do usuário.
+              Meu objetivo é transformar processos manuais e regras de negócio em sistemas digitais claros, funcionais e sustentáveis, entregando tecnologia que gera resultado real.
             </p>
           </div>
 
@@ -30,18 +30,18 @@ export default function About() {
             {[
               {
                 icon: Code2,
-                title: 'Desenvolvimento Full Stack',
-                description: 'Conhecimento do ciclo de desenvolvimento, do front-end ao back-end.'
+                title: 'Arquitetura e Desenvolvimento Full Stack',
+                description: 'Construção de aplicações web completas, com estrutura organizada e integração entre front-end e back-end.'
               },
               {
                 icon: Lightbulb,
-                title: 'Soluções Criativas',
-                description: 'Transformo desafios em oportunidades com pensamento inovador.'
+                title: 'Integrações e Automação',
+                description: 'Implementação de APIs e fluxos automatizados para otimizar processos e reduzir tarefas manuais.'
               },
               {
                 icon: Rocket,
-                title: 'Resultados de Alto Impacto',
-                description: 'Foco em entregar valor real e mensurável para cada projeto.'
+                title: 'Soluções Orientadas a Resultado',
+                description: 'Tecnologia aplicada para gerar eficiência operacional, escalabilidade e melhoria contínua.'
               }
             ].map((item) => (
               <div
