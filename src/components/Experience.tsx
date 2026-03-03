@@ -62,7 +62,8 @@ export default function Experience() {
   { name: 'Imersão Cloud DevOps', institution: 'Alura', date: 'Jul/2025' },
   { name: 'NLW Agents - Iniciante', institution: 'Rocketseat', date: 'Jul/2025' },
   { name: 'NLW Agents - Avançado', institution: 'Rocketseat', date: 'Jul/2025' },
-  { name: 'Imersão Dev Agentes de IA Google', institution: 'Alura', date: 'Set/2025' }
+  { name: 'Imersão Dev Agentes de IA Google', institution: 'Alura', date: 'Set/2025' },
+  { name: 'IAs visuais para prototipação', institution: 'Orango Senac', date: 'Mar/2026' },
 ];
 
 
